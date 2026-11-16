@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodarts",
+  "version": "${version}",
+  "name": "Blood Arts",
+  "description": "Manipulate your own blood as a weapon, at a cost.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.bloodarts.BloodArts"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
